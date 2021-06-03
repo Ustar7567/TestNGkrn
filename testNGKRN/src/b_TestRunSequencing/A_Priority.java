@@ -6,7 +6,7 @@ public class A_Priority {
 	
 	//There's no rule that we should give priority without skipping numbers. We can skip the numbers as well. We cn give priority like 0,18,39,50 also. 
 	//The test execution happens as per the ascending order of the priority provided. 
-	//Usually, in real time projects, engg.s give gaps between priority numbers in order to add more test cases in between in future.
+	//Usually, in real time projects, engg.s give gaps between priority numbers in order to add more test cases in between in the future.
 	
 	@Test(priority=0)
 	public void createCustomer() {
