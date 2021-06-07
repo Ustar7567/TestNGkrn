@@ -1,29 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-03T12:02:27 IST" name="Default suite" finished-at="2021-06-03T12:02:27 IST" duration-ms="70">
+  <suite started-at="2021-06-07T11:45:54 IST" name="Suite" finished-at="2021-06-07T11:45:54 IST" duration-ms="105">
     <groups>
     </groups>
-    <test started-at="2021-06-03T12:02:27 IST" name="Default test" finished-at="2021-06-03T12:02:27 IST" duration-ms="70">
-      <class name="b_TestRunSequencing.A_Priority">
-        <test-method signature="createCustomer()[pri:0, instance:b_TestRunSequencing.A_Priority@6193932a]" started-at="2021-06-03T12:02:27 IST" name="createCustomer" finished-at="2021-06-03T12:02:27 IST" duration-ms="11" status="PASS">
+    <test started-at="2021-06-07T11:45:54 IST" name="Test" finished-at="2021-06-07T11:45:54 IST" duration-ms="105">
+      <class name="e_RunningTestClassesInOrderUsingXML.C">
+        <test-method signature="createC()[pri:0, instance:e_RunningTestClassesInOrderUsingXML.C@1677d1]" started-at="2021-06-07T11:45:54 IST" name="createC" finished-at="2021-06-07T11:45:54 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createCustomer -->
-        <test-method signature="editCustomer()[pri:1, instance:b_TestRunSequencing.A_Priority@6193932a]" started-at="2021-06-03T12:02:27 IST" name="editCustomer" finished-at="2021-06-03T12:02:27 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- createC -->
+        <test-method signature="deleteC()[pri:0, instance:e_RunningTestClassesInOrderUsingXML.C@1677d1]" started-at="2021-06-07T11:45:54 IST" name="deleteC" finished-at="2021-06-07T11:45:54 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editCustomer -->
-        <test-method signature="modifyCustomer()[pri:2, instance:b_TestRunSequencing.A_Priority@6193932a]" started-at="2021-06-03T12:02:27 IST" name="modifyCustomer" finished-at="2021-06-03T12:02:27 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- deleteC -->
+        <test-method signature="editC()[pri:0, instance:e_RunningTestClassesInOrderUsingXML.C@1677d1]" started-at="2021-06-07T11:45:54 IST" name="editC" finished-at="2021-06-07T11:45:54 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- modifyCustomer -->
-        <test-method signature="deleteCustomer()[pri:3, instance:b_TestRunSequencing.A_Priority@6193932a]" started-at="2021-06-03T12:02:27 IST" name="deleteCustomer" finished-at="2021-06-03T12:02:27 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- editC -->
+      </class> <!-- e_RunningTestClassesInOrderUsingXML.C -->
+      <class name="e_RunningTestClassesInOrderUsingXML.A">
+        <test-method signature="createA()[pri:0, instance:e_RunningTestClassesInOrderUsingXML.A@3967e60c]" started-at="2021-06-07T11:45:54 IST" name="createA" finished-at="2021-06-07T11:45:54 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteCustomer -->
-      </class> <!-- b_TestRunSequencing.A_Priority -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- createA -->
+        <test-method signature="deleteA()[pri:0, instance:e_RunningTestClassesInOrderUsingXML.A@3967e60c]" started-at="2021-06-07T11:45:54 IST" name="deleteA" finished-at="2021-06-07T11:45:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteA -->
+        <test-method signature="editA()[pri:0, instance:e_RunningTestClassesInOrderUsingXML.A@3967e60c]" started-at="2021-06-07T11:45:54 IST" name="editA" finished-at="2021-06-07T11:45:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editA -->
+      </class> <!-- e_RunningTestClassesInOrderUsingXML.A -->
+      <class name="e_RunningTestClassesInOrderUsingXML.B">
+        <test-method signature="createB()[pri:0, instance:e_RunningTestClassesInOrderUsingXML.B@59d016c9]" started-at="2021-06-07T11:45:54 IST" name="createB" finished-at="2021-06-07T11:45:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createB -->
+        <test-method signature="deleteB()[pri:0, instance:e_RunningTestClassesInOrderUsingXML.B@59d016c9]" started-at="2021-06-07T11:45:54 IST" name="deleteB" finished-at="2021-06-07T11:45:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteB -->
+        <test-method signature="editB()[pri:0, instance:e_RunningTestClassesInOrderUsingXML.B@59d016c9]" started-at="2021-06-07T11:45:54 IST" name="editB" finished-at="2021-06-07T11:45:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editB -->
+      </class> <!-- e_RunningTestClassesInOrderUsingXML.B -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
